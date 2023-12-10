@@ -1,0 +1,184 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+
+
+header {
+  background-image: url(https://13637-42425.ixactcontactwebsites.com/wp//uploads/b0b174cf86166249d44a13fb925dcecb/2022/01/A-Streetscapes_Houses-04.jpg);
+  
+  color: #1da1f2;
+  padding: 20px;
+  width: auto;
+  height: 400px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.navigation {
+  list-style: none;
+ 
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 20px;
+}
+
+.navigation li a {
+  text-decoration-thickness: 10px;
+  color: #1da1f2;
+}
+
+
+.hero {
+  text-align: center;
+  
+  padding: 60px 0;
+
+
+}
+
+.offer-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1da1f2; 
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.offer-button:hover {
+  background-color: #0c87c0; 
+}
+
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 80px;
+  
+  
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  background-color: #000; 
+  color: #fff; 
+  padding: 10px; 
+
+
+}
+
+.btn {
+  background-color: #040404;
+  color: #030303;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.features {
+  background-color: (#1da1f2);
+  padding: 90px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fbfcfae9;
+  border-radius: 5px;
+}
+
+.feature img {
+  width: 300px;
+}
+
+.testimonials {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #5daad3;
+  width: auto;
+  height: auto;
+}
+
+.testimonials h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  width: auto;
+  height: auto;
+}
+
+.testimonial {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fffcfc;
+  border-radius: 5px;
+}
+
+.testimonial img {
+  width: 70px;
+  height: auto;
+  border: #000000;
+}
+
+
+footer {
+  background-color: #3370b1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .testimonial {
+    width: 100%;
+  }
+}
